@@ -1,0 +1,178 @@
+/*   
+Theme Name: TPA Theme
+Theme URI: http://lynda.com
+Description: Based on Custom, created for the course Dreamweaver and WordPress: Building Themes
+Author: Joseph Lowery
+Version: 1.00
+*/
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3 {
+	color: #0040F3;
+	padding-bottom: .1em;
+}
+h1 {
+	font-size: 2.5em;	
+}
+h2 {
+	font-size: 1.75em;	
+}
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+p {
+	font-size: 1em;
+	line-height: 1.2em;
+	padding: 1em 0;	
+}
+img {
+	outline:none;
+	border: 0;
+}
+em { font-style: italic; }
+#outerWrapper {
+	margin: 50px auto;
+	width: 960px;
+	padding: 20px;
+	background: white;
+	-moz-border-radius: 2.25em;
+	-webkit-border-radius: 2.25em;
+	border-radius: 2.25em;
+}
+body {
+	background: #000 url(images/tpa_bg.jpg) repeat-x center top;
+	font: 1.2em/1.4em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+header {
+	width: 100%;
+	text-align: center;
+}
+#content {
+	width: 100%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-top: 20px;
+}
+footer {
+	border-top: 2px #666 solid;
+	font-size: .8em;
+	text-align:center;
+	padding: 10px;	
+}
+footer p {
+	font-size: 10px;
+	color: #000;
+	text-align: center;
+}
+.imageRight, .alignright {
+	float: right;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+.imageLeft, .alignleft {
+	float: left;
+	padding-bottom: 15px;
+	padding-right: 15px;
+}
+nav {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: white;
+	width: 960px;
+	font-size: 30px;
+	margin: 20px auto;
+	overflow: hidden;
+	background-color: #0000FF;
+	border-radius: 0.5em;
+}
+nav ul {
+	margin: auto;
+	width: 860px;
+	list-style: none;
+}
+nav ul li {
+	float: left;
+	width: 170px;
+	text-align: center;
+}
+nav ul li a:link, nav ul li a:visited {
+	line-height: 40px;
+	display: block;
+	color: white;
+	background-color: #00F;
+	text-decoration: none;
+}
+nav ul li a:hover, nav ul li a:active {
+	color: #FFF;
+	background-color: #D32020;
+}
+
+#contentWrap {
+	width: 100%;
+	overflow: auto;
+}
+#content {
+	width: 700px;
+	float: right;	
+}
+#content article, .widget-area aside, form#commentform, h2#pageTitle {
+	margin-bottom: 20px;	
+}
+div.entry, div.entry p {
+	margin: 10px 0;	
+}
+.widget-area {
+	width: 220px;
+	margin-top: 20px;
+}
+.widget-area p, .widget-area ul li {
+	font-size: 1em;
+	line-height: 1.6em;
+}
+input#s {
+	width: 150px;
+}
+.highlight {
+	font-size: 120%;
+	border: 1px #D32020 solid;
+	padding: 3px;
+	margin: 0 auto;
+	width: 80%;
+	background-color:#FFFF99;
+	text-align: center;	
+}
+a:link, a:visited {
+	color: #0000FF;
+	text-decoration:none;
+	border-bottom: 2px #00F dotted;
+}
+a:hover, a:active {
+	color: #D32020;
+	text-decoration:none;
+	border-bottom: 2px #D32020 dotted;
+}
+h2 a:link, h2 a:visited, header a:link, header a:visited {
+	color: #0000FF;
+	text-decoration:none;
+	border-bottom: none;
+}
+h2 a:hover, h2 a:active, header a:hover, header a:active {
+	color: #D32020;
+	text-decoration:none;
+	border-bottom: none;
+}
+/* Working the Future */
+.page-template-working_future-php #content {
+	width: 100%;
+	float: none;	
+}
+ul.lcp_catlist > li a + p {
+	display: none;	
+}
